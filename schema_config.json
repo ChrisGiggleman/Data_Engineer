@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "members": {
+      "table": "members",
+      "aliases": [
+        "members",
+        "users",
+        "accounts",
+        "site members",
+        "hacker site members",
+        "mailing list"
+      ],
+      "details_bundle": ["member_id", "username", "password_hash", "join_date"],
+      "columns": {
+        "member_id": {
+          "aliases": ["member id", "id", "user id"]
+        },
+        "username": {
+          "aliases": ["username", "user name", "handle", "account name"]
+        },
+        "password_hash": {
+          "aliases": ["password hash", "password hashes", "hashed password", "hashes"]
+        },
+        "breach_source": {
+          "aliases": ["breach source", "source", "leak source", "darknet forum"]
+        },
+        "join_date": {
+          "aliases": ["join date", "join dates", "joined at", "signup date", "sign-up date"]
+        }
+      }
+    }
+  }
+}
