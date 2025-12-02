@@ -44,6 +44,7 @@ GUI interface for business users
 Packaging into a pip-installable module
 
 📂 Repository Structure
+``` pgsql
 Data_Engineer/
 │
 ├── README.md               # You are here
@@ -55,6 +56,9 @@ Data_Engineer/
       ├── sql_builder.py
       ├── query_intent.py
       ├── schema_config.json
+
+```
+
 
 🎯 Purpose of This Repository
 
