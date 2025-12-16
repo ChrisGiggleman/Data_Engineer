@@ -1,39 +1,43 @@
-# Data_Engineer
-📘 Data Engineer Projects & Tools
+# 📘 Data Engineer Projects & Tools
 
-Welcome to the Data_Engineer repository — a collection of tools, scripts, and project experiments focused on building real-world data engineering solutions.
-This repo is designed to grow over time, serving as a personal portfolio and a practical toolkit for ETL workflows, automation, data analysis, and intelligent data processing systems.
+Welcome to the **Data_Engineer** repository — a growing collection of tools, scripts, and portfolio-ready projects focused on **real-world data engineering and analytics solutions**.
 
-🚀 Current Projects
-### 📌 1. Natural Language → SQL Query Builder (sql_builder/)
+This repository serves as both:
+- A **personal portfolio** for recruiters and hiring managers
+- A **practical sandbox** for building, testing, and refining data pipelines, ETL workflows, SQL systems, and analytics use cases
 
-A Python-based tool that converts plain English requests into fully structured SQL queries.
+---
 
-Instead of manually writing SQL, a user can type something like:
+## 🚀 Current Projects
 
-“Show all members' password hashes with no duplicates sorted by join date.”
+### 📌 1. Natural Language → SQL Query Builder  
+📂 `sql_builder/`
 
-… and the system automatically produces:
+A Python-based tool that converts **plain English requests into structured SQL queries**.
 
-SELECT DISTINCT "member_id", "username", "password_hash", "join_date"
-FROM "members"
-ORDER BY "join_date" ASC;
+Instead of manually writing SQL, a user can type:
 
+> “Show all members' password hashes with no duplicates sorted by join date.”
+
+And the system automatically produces:
+
+```sql
+SELECT DISTINCT member_id, username, password_hash, join_date
+FROM members
+ORDER BY join_date ASC;
 🔧 Features
+Entity and field detection via alias matching
 
-Entity and field detection through alias matching
-
-Natural language interpretation (fields, filters, sorting, distinct, etc.)
+Natural language intent parsing (filters, sorting, DISTINCT, etc.)
 
 Schema-driven SQL generation
 
-Extensible architecture for custom rules
+Extensible rule-based architecture
 
-Cross-platform (Windows, Linux, macOS)
+Cross-platform support (Windows, Linux, macOS)
 
-🔜 Coming Enhancements
-
-Support for date filtering (“after 2024-01-01”)
+🔜 Planned Enhancements
+Date filtering (e.g., “after 2024-01-01”)
 
 Aggregations (“count members per source”)
 
@@ -41,47 +45,91 @@ JOIN detection
 
 GUI interface for business users
 
-Packaging into a pip-installable module
+Packaging as a pip-installable module
+
+📊 2. SQL Data Analytics Portfolio
+📂 chris-giggleman-sql-analytics/
+
+A full end-to-end SQL analytics portfolio showcasing data cleaning, transformation, validation, and business-driven analysis using SQLite and PostgreSQL.
+
+This project is designed to mirror real analyst and analytics-engineering workflows, not toy examples.
+
+🔍 What’s Included
+4 complete analytics case studies:
+
+Retail Sales Analytics
+
+HR Attrition & Pay Equity
+
+Healthcare Appointment No-Show Analysis
+
+SaaS Subscriptions (MRR, Churn, Cohorts)
+
+Raw CSV ingestion → cleaned datasets → analytical queries
+
+Mermaid ERDs and pipeline flow diagrams
+
+Before/After data cleaning validation
+
+Business insights and recommendations
+
+GitHub Pages site for recruiter-friendly viewing
+
+Practice guide for rebuilding and extending each project
+
+🛠️ Skills Demonstrated
+SQL (CTEs, window functions, cohort analysis)
+
+Data cleaning and quality validation
+
+Schema design and normalization
+
+Analytics engineering patterns
+
+Business-focused insight generation
+
+SQLite & PostgreSQL (Docker)
+
+🔗 Portfolio Entry Point:
+➡️ See the project README inside chris-giggleman-sql-analytics/ for full documentation and live GitHub Pages link.
 
 📂 Repository Structure
-``` pgsql
+text
+Copy code
 Data_Engineer/
 │
-├── README.md               # You are here
+├── README.md                         # You are here
 │
-└── sql_builder/            # Natural language SQL generation tool
-      ├── main.py
-      ├── schema.py
-      ├── nl_parser.py
-      ├── sql_builder.py
-      ├── query_intent.py
-      ├── schema_config.json
-
-```
-
-
+├── sql_builder/                      # Natural language → SQL generation tool
+│   ├── main.py
+│   ├── schema.py
+│   ├── nl_parser.py
+│   ├── sql_builder.py
+│   ├── query_intent.py
+│   └── schema_config.json
+│
+└── chris-giggleman-sql-analytics/     # End-to-end SQL analytics portfolio
 🎯 Purpose of This Repository
+This repository acts as a centralized engineering + analytics workspace for:
 
-This repo acts as a centralized space for:
+Building reusable data engineering tools
 
-Building data engineering tools
+Demonstrating portfolio-ready analytics projects
 
-Demonstrating portfolio-ready projects
+Practicing ETL, SQL, and pipeline logic
 
-Documenting learning progress & applied knowledge
+Showcasing applied, real-world data skills
 
-Hosting reusable scripts for real-world workflows
-
-Whether you're practicing ETL automation, SQL generation, API integration, or pipeline design, this repo will evolve into a comprehensive showcase of applied data engineering skills.
+It intentionally blends engineering systems (automation, tooling) with analytics execution (cleaning, insights, decision support).
 
 🤝 Contributions
-
-This is a personal project, but suggestions, feature ideas, and contributions are welcome.
+This is a personal portfolio project, but suggestions, feature ideas, and improvements are welcome.
 Feel free to open issues or submit pull requests.
 
 📬 Contact
-
-Created by Chris Giggleman
-GitHub: ChrisGiggleman
-
+Created by: Chris Giggleman
+GitHub: https://github.com/ChrisGiggleman
 Email: C.giggleman@outlook.com
+
+yaml
+Copy code
