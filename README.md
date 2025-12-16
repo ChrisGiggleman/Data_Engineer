@@ -26,7 +26,7 @@ SELECT DISTINCT member_id, username, password_hash, join_date
 FROM members
 ORDER BY join_date ASC;
 ```
-🔧 Features
+## 🔧 Features
 Entity and field detection via alias matching
 
 Natural language intent parsing (filters, sorting, DISTINCT, etc.)
@@ -37,7 +37,7 @@ Extensible rule-based architecture
 
 Cross-platform support (Windows, Linux, macOS)
 
-🔜 Planned Enhancements
+## 🔜 Planned Enhancements
 Date filtering (e.g., “after 2024-01-01”)
 
 Aggregations (“count members per source”)
@@ -48,14 +48,14 @@ GUI interface for business users
 
 Packaging as a pip-installable module
 
-📊 2. SQL Data Analytics Portfolio
+# 📊 2. SQL Data Analytics Portfolio
 📂 chris-giggleman-sql-analytics/
 
 A full end-to-end SQL analytics portfolio showcasing data cleaning, transformation, validation, and business-driven analysis using SQLite and PostgreSQL.
 
 This project is designed to mirror real analyst and analytics-engineering workflows, not toy examples.
 
-🔍 What’s Included
+## 🔍 What’s Included
 4 complete analytics case studies:
 
 Retail Sales Analytics
@@ -78,7 +78,7 @@ GitHub Pages site for recruiter-friendly viewing
 
 Practice guide for rebuilding and extending each project
 
-🛠️ Skills Demonstrated
+## 🛠️ Skills Demonstrated
 SQL (CTEs, window functions, cohort analysis)
 
 Data cleaning and quality validation
@@ -91,7 +91,7 @@ Business-focused insight generation
 
 SQLite & PostgreSQL (Docker)
 
-🔗 Portfolio Entry Point:
+## 🔗 Portfolio Entry Point:
 ➡️ See the project README inside chris-giggleman-sql-analytics/ for full documentation and live GitHub Pages link.
 
 📂 Repository Structure
@@ -110,7 +110,7 @@ Data_Engineer/
 │
 └── chris-giggleman-sql-analytics/     # End-to-end SQL analytics portfolio
 ```
-🎯 Purpose of This Repository
+## 🎯 Purpose of This Repository
 This repository acts as a centralized engineering + analytics workspace for:
 
 Building reusable data engineering tools
@@ -123,14 +123,13 @@ Showcasing applied, real-world data skills
 
 It intentionally blends engineering systems (automation, tooling) with analytics execution (cleaning, insights, decision support).
 
-🤝 Contributions
+## 🤝 Contributions
 This is a personal portfolio project, but suggestions, feature ideas, and improvements are welcome.
 Feel free to open issues or submit pull requests.
 
-📬 Contact
+## 📬 Contact
 Created by: Chris Giggleman
 GitHub: https://github.com/ChrisGiggleman
 Email: C.giggleman@outlook.com
 
-yaml
-Copy code
+
