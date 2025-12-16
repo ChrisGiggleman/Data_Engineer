@@ -25,6 +25,7 @@ And the system automatically produces:
 SELECT DISTINCT member_id, username, password_hash, join_date
 FROM members
 ORDER BY join_date ASC;
+```
 🔧 Features
 Entity and field detection via alias matching
 
@@ -94,8 +95,7 @@ SQLite & PostgreSQL (Docker)
 ➡️ See the project README inside chris-giggleman-sql-analytics/ for full documentation and live GitHub Pages link.
 
 📂 Repository Structure
-text
-Copy code
+```
 Data_Engineer/
 │
 ├── README.md                         # You are here
@@ -109,6 +109,7 @@ Data_Engineer/
 │   └── schema_config.json
 │
 └── chris-giggleman-sql-analytics/     # End-to-end SQL analytics portfolio
+```
 🎯 Purpose of This Repository
 This repository acts as a centralized engineering + analytics workspace for:
 
