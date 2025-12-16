@@ -1,0 +1,6 @@
+title: SQL Data Analyst Portfolio
+description: End-to-end SQL projects (SQLite + PostgreSQL) showcasing data cleaning, analytics, cohorts, churn, and QA checks.
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -1,0 +1,5 @@
+product_id,product_name,category,unit_price,active
+101,USB-C Cable,Accessories,12.99,1
+102,Wireless Mouse,Accessories,24.50,1
+103,Laptop Stand,Office,39.00,1
+104,Old Keyboard,Accessories,,0

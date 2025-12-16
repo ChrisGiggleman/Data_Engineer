@@ -1,0 +1,5 @@
+subscription_id,account_id,plan,start_date,end_date,monthly_price,industry,seats
+1,9001,Pro,2024-01-01,,49,Healthcare,5
+2,9002,Basic,2024-01-15,2024-04-14,19,Retail,2
+3,9003,Business,2024-02-01,,99,Tech,10
+4,9004,Pro,2024-03-10,2024-05-09,49,Education,

@@ -1,0 +1,5 @@
+appointment_id,patient_id,clinic,provider,booked_at,appointment_at,status,insurance_type
+10,2001,North,A.Davis,2024-04-01,2024-04-05,Completed,Commercial
+11,2002,North,A.Davis,2024-04-01,2024-04-02,NoShow,Medicaid
+12,2001,South,J.Smith,2024-05-10,2024-05-20,Canceled,Commercial
+13,2003,East,  ,2024-05-11,2024-05-12,NoShow,Medicare

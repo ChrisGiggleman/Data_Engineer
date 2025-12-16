@@ -1,0 +1,5 @@
+-- SQLite load notes:
+-- Recommended: use DB Browser for SQLite
+-- File -> Import -> Table from CSV
+-- Choose the matching table name.
+-- Then run 03_cleaning.sql and 04_analysis.sql.

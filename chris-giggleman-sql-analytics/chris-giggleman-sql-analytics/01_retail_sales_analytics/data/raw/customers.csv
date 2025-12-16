@@ -1,0 +1,5 @@
+customer_id,full_name,email,city,state,created_at
+1,Chris Adams,chris.adams@email.com,Charlotte,NC,2024-01-05
+2,  ,jane.roe@email.com,Raleigh,NC,2024-02-10
+3,Miguel Diaz,,Atlanta,GA,2024-02-11
+4,Sarah Chen,sarah.chen@email.com,Greenville,SC,2024-03-01

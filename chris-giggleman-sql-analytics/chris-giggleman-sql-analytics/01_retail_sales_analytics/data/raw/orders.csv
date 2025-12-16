@@ -1,0 +1,5 @@
+order_id,customer_id,order_date,status,channel,shipping_cost
+5001,1,2024-03-02,Shipped,Web,5.99
+5002,2,2024-03-03,Shipped,Web,0
+5003,1,2024-03-20,Returned,Mobile,6.50
+5004,3,2024-04-01,Shipped,Web,

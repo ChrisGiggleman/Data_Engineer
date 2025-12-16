@@ -1,0 +1,3 @@
+
+# SaaS Subscriptions — Detailed Analysis Report
+...
